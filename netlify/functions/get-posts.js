@@ -17,12 +17,12 @@ exports.handler = async event => {
   if (error) {
     return {
       statusCode: 500,
-      body: error,
+      body: JSON.stringify(error),
     };
   }
 
   return {
     statusCode: 200,
-    body: data,
+    body: JSON.stringify(data),
   };
 };
