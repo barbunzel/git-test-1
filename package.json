@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/barbunzel/git-test-1#readme",
   "dependencies": {
+    "@supabase/supabase-js": "^1.30.0",
     "dotenv": "^16.0.0"
   }
 }
